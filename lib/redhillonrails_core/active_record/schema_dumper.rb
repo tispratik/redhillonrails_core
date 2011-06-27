@@ -4,8 +4,8 @@ module RedhillonrailsCore
       def self.included(base)
         base.class_eval do
           private
-          alias_method_chain :tables, :redhillonrails_core
-          alias_method_chain :indexes, :redhillonrails_core
+          #alias_method_chain :tables, :redhillonrails_core
+          #alias_method_chain :indexes, :redhillonrails_core
         end
       end
 
